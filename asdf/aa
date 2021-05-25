@@ -101,8 +101,6 @@ paths:
         applicable only for monthly users.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Pause action details
         required: true
@@ -145,8 +143,6 @@ paths:
         https://www.zuora.com/developer/api-reference/#operation/PUT_Subscription
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Update subscription fields to update, as per zuora put subscription
           api documentation
@@ -190,8 +186,6 @@ paths:
         monthly users. Not applicable for gift code users.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       responses:
         "201":
           description: The request has been successfully submitted for processing
@@ -228,8 +222,6 @@ paths:
         at,br,ca,ch,de,es,it,jp,us
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Change pause end date payload
         required: true
@@ -269,8 +261,6 @@ paths:
         future amendments should be deleted
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       responses:
         "201":
           description: The request has been successfully submitted for processing
@@ -304,7 +294,6 @@ paths:
       security:
         - BearerAuthJWT: []
       parameters:
-        - {}
         - in: path
           name: subscriptionId
           schema:
@@ -340,7 +329,6 @@ paths:
       security:
         - BearerAuthJWT: []
       parameters:
-        - {}
         - in: path
           name: subscriptionId
           schema:
@@ -382,7 +370,6 @@ paths:
       security:
         - BearerAuthJWT: []
       parameters:
-        - {}
         - in: path
           name: subscriptionId
           schema:
@@ -417,8 +404,6 @@ paths:
       description: Get payment details and payment reference id for the user.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       responses:
         "200":
           description: Payment method details for the user
@@ -455,8 +440,6 @@ paths:
       description: Create payment method and mark it as default payment method
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Create payment method details
         required: true
@@ -490,8 +473,6 @@ paths:
       description: Create payment method and mark it as default payment method
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Create payment method details
         required: true
@@ -525,8 +506,6 @@ paths:
       description: Get payment history for the logged in user
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       responses:
         "200":
           description: Payment History for the user
@@ -574,8 +553,6 @@ paths:
       description: Update billTo and soldTo contact of the user with the provided fields.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       requestBody:
         description: Contact
         required: true
