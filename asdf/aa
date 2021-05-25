@@ -18,8 +18,6 @@ paths:
         user can only have one active subscription.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
       responses:
         "200":
           description: Subscription details for the user
