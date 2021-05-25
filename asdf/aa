@@ -53,8 +53,6 @@ paths:
       description: Cancel the subscription for the user.
       security:
         - BearerAuthJWT: []
-      parameters:
-        - {}
         - in: path
           name: subscriptionId
           schema:
