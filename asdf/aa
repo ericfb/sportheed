@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   version: 1.0.0
-  title: subscriptions-service-test
+  title: subscriptions-service-test-s
   description: |
     Microservice responsible for managing subscriptions (Frontend)
 tags:
