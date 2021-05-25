@@ -8,7 +8,7 @@ tags:
   - name: status
   - name: v1
 paths:
-  /fe/v1/subscriptions:
+  /fe/v33/subscriptions:
     get:
       tags:
         - v1
